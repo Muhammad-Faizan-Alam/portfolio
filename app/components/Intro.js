@@ -5,7 +5,7 @@ const Intro = () => {
     return (
         <div className='border-2 border-gray-500 rounded-2xl bg-gray-800/30 backdrop-blur-md opacity-100 p-5'>
             <div className='flex flex-wrap'>
-                <div className='font-bold text-gray-950 w-[70%]'>Welcome, I'm
+                <div className='font-bold text-gray-950 w-[70%]'>Welcome, I&#39;m
                     <div className='text-xl text-purple-900'> Muhammad Faizan Alam <hr /></div>
                 </div>
                 <div className='w-[30%] rounded-full border-purple-500'>
