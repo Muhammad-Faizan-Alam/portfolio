@@ -3,7 +3,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className='md:p-20 p-12 bg-black min-h-screen'>
+    <div className='md:p-20 p-12 bg-black h-screen'>
       <div className='md:text-3xl text-2xl font-bold text-gray-400'>Welcome, I'm
         <div className='md:text-4xl text-3xl text-purple-500 pl-12'>Muhammad Faizan Alam</div>
       </div>
