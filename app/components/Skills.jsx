@@ -11,7 +11,7 @@ const Skills = () => {
     <div className="overflow-hidden whitespace-nowrap py-4">
       <div className="animate-marquee inline-block whitespace-nowrap">
         {Array.from({ length: 2 }).map((_, loopIdx) => (
-          <div key={loopIdx} className="inline-flex items-center space-x-3 mx-4">
+          <div key={loopIdx} className="w-[90%] inline-flex items-center space-x-3 mx-4">
             {skillBadges.map((data, idx) => (
               <div key={idx} className="p-2 bg-black rounded-xl">
                 {data}
