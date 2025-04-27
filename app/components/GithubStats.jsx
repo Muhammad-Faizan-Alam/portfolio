@@ -138,7 +138,7 @@ const GithubStats = () => {
 
   if (error) {
     return (
-      <div className="bg-gray-800/70 text-white p-5 rounded-3xl mt-4 text-center text-red-400">
+      <div className="bg-gray-800/70 p-5 rounded-3xl mt-4 text-center text-red-400">
         {error}
       </div>
     );

@@ -101,6 +101,17 @@ const Page = () => {
           <GithubStats />
         </div> */}
 
+        {/* Education */}
+        <div className="md:w-[48%] bg-gray-700/70 text-white p-5 rounded-3xl z-10">
+          <h2>
+            <LineProgressBar percentage={80} label="Education" color="bg-gradient-to-r from-cyan-500 to-fuchsia-800" textSize='text-2xl' />
+          </h2>
+          <div className="p-2">
+            <div><span className="text-blue-500">BS Computer Science</span> -- 6th semester with 3.47 GPA at NTU, Faisalabad</div>
+            <div><span className="text-blue-500">Intermediate (FSc.)</span> -- with medical subjects got 87.3% from Al-Falah College, Jhumra</div>
+            <div><span className="text-blue-500">Matric</span> -- with medical subjects got 94.1% from Al-Falah College, Jhumra</div>
+          </div>
+        </div>
       </div>
     </div>
   );
