@@ -112,6 +112,11 @@ const Page = () => {
             <div><span className="text-blue-500">Matric</span> -- with medical subjects got 94.1% from Al-Falah College, Jhumra</div>
           </div>
         </div>
+
+        {/* projects */}
+        <div className="md:w-[48%] bg-gray-700/70 text-white p-5 rounded-3xl z-10">
+
+        </div>
       </div>
     </div>
   );
