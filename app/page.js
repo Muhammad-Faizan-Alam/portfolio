@@ -5,6 +5,7 @@ import Image from "next/image";
 import CircularProgress from "./components/CircularProgress";
 import LineProgressBar from "./components/LineProgressBar";
 import Skills from "./components/skills";
+import GithubStats from "./components/GithubStats";
 
 const Page = () => {
   const boxRef = useRef(null);
@@ -94,6 +95,12 @@ const Page = () => {
             <Skills />
           </div>
         </div>
+
+        {/* github stats */}
+        {/* <div className="w-full z-10">
+          <GithubStats />
+        </div> */}
+
       </div>
     </div>
   );

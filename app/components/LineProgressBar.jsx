@@ -12,7 +12,7 @@ const LineProgressBar = ({
 
   return (
     <div className="w-full my-4">
-      <div className="lg:w-2/3 w-full bg-gray-700 rounded-full overflow-hidden">
+      <div className="w-[85%] bg-gray-700 rounded-full overflow-hidden">
         <motion.div
           className={`rounded-full h-8 flex items-center justify-center text-white font-semibold ${color} lg:text-2xl text-sm`}
           initial={{ width: 0 }}

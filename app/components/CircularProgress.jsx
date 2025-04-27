@@ -1,6 +1,7 @@
 'use client'
 import { motion, useAnimation } from 'framer-motion';
 import { useEffect } from 'react';
+import AnimatedCounter from './AnimatedCounter'
 
 const CircularProgress = ({ percentage, label, color = 'text-blue-500' }) => {
   const radius = 40;
@@ -43,7 +44,8 @@ const CircularProgress = ({ percentage, label, color = 'text-blue-500' }) => {
         />
       </svg>
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center">
-        <div className="text-xs font-bold">{percentage}%</div>
+        
+        <div className="text-xs font-bold"><AnimatedCounter from={0} to={percentage} duration={1.5} />%</div>
         <div className="text-[10px]">{label}</div>
       </div>
     </div>
