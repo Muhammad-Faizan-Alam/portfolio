@@ -78,7 +78,7 @@ const Page = () => {
           <div>
             A <span className='text-blue-500'>Computer Scientist</span> specializing in web development. I create fast, optimized websites using the latest technologies
           </div><br />
-          — That's why you can say me as a <span className='text-blue-500'>Web Developer</span>.
+          — That&apos;s why you can say me as a <span className='text-blue-500'>Web Developer</span>.
         </div>
 
         {/* SKILLS */}
