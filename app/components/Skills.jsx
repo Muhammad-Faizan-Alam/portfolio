@@ -1,7 +1,5 @@
 'use client';
 
-import Image from 'next/image';
-
 const Skills = () => {
   const skillBadges = [
     'nextjs', 'reactjs', 'mongodb', 'javascript', 'typescript', 'redux-toolkit', 'tailwind', 'c++', 'css', 'html', 'github', 'docker', 'git'
